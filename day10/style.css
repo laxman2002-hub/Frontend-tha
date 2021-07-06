@@ -1,0 +1,39 @@
+ #head,#move{
+     text-align: center;
+     font-size: xx-large;
+
+ }
+#grid{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding:10px;
+    display: grid;
+
+    grid-template: repeat(4,1fr)/repeat(4,1fr);
+    grid-gap: 2px;
+    border: 4px solid black;
+}
+
+.card{
+    height: 150px;
+    background-color: rgb(85, 209, 2);
+    color:rgb(85, 209, 2);
+    font-size: xx-large;
+    border-radius: 10px;
+}
+.flip{
+    background-color: rgb(0, 0, 136);
+    color: rgb(255, 255, 255);
+}
+.hidden{
+    visibility:hidden;
+}
+.winner{
+    background-image: url("https://image.shutterstock.com/image-vector/winner-banner-win-congratulations-vintage-260nw-1367983544.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    
+             background-position: center;
+            background-attachment: fixed;
+}
