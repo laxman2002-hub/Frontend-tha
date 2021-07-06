@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+.hidden{
+    visibility: hidden;
+}
+
+.done{
+    background-color: chartreuse;
+}
+.head{
+    text-align: center;
+}
+
+.do{
+
+    color: rgb(40, 0, 218);
+    font-size: xx-large;
+    
+}
+.del{
+    margin-right: 100px;
+    color: red;
+    font-size: xx-large;
+}
+
+.main{
+    background-color: blue
+}
+.todolist{
+    background-image: url('https://images.pexels.com/photos/7135121/pexels-photo-7135121.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+     background-position: center;
+     background-size: cover;
+    font-size: xx-large;
+    border:5px solid red;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 600px;
+    color: black;
+}
+input{
+    height:35px;
+    width:400px;
+    font-size: x-large;
+    text-align: center;
+}
+button{
+    height:40px;
+    border:2px solid black;
+    border-radius: 9px;
+    margin-left: 120px;
+    display:inline-block;
+    align-items: right;
+    
+
+}
+button:hover{
+    cursor: pointer;
+}
+
