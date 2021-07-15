@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    text-align: center;
+    height: 240px;
+    width: 200px;
+    display: flex;
+    margin: 200px 500px;
+    border: 5px solid black;
+    padding: 2px 5px;
+    flex-direction: column;
+}
+
+.Card {
+    display: grid;
+    margin: auto;
+    grid-template: repeat(1, 1fr)/repeat(8, 1fr);
+    grid-gap: 1px;
+}
+
+.box,
+.box1 {
+    height: 20px;
+    width: 20px;
+}
+
+.Card1 button:nth-child(odd) {
+    background: black;
+}
+
+.Card2 button:nth-child(even) {
+    background: black;
+}
