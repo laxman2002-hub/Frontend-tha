@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.Card {
+    background-color:green;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.head{
+    border: 2px solid blue;
+    background-color:aqua;
+    height: 500px;
+    width:450px;
+    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+    -webkit-align-items: center;
+   
+}  
+.App{
+    overflow: auto;
+}
+.head h1{
+    color: red;
+}
