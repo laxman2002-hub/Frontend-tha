@@ -19,3 +19,4 @@ Man1.age.apply(Man2 , [18]);
 
 const ab = Man1.age.bind(Man1,18)
 ab()
+
