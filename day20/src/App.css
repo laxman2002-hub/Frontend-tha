@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.App button {
+    margin-left: 200px;
+    background-color: white;
+    font-size: large;
+}
+
+.todo {
+    margin: 5px 0px;
+    display: inline-block;
+}
+
+.head {
+    background-color: rgb(71, 194, 71);
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.App {
+    overflow: auto;
+    height: 400px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px solid red;
+}
+
+.class {
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px solid red;
+    text-align: center;
+    background-color: blue;
+
+}
