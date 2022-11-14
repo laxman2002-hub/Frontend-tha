@@ -1,0 +1,29 @@
+.clock{
+    position: relative;
+    border: 40px solid red;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    margin: 50px 500px;
+    box-shadow: inset 0px 0px 60px #8f5656;
+}
+
+.hour, .minute, .second {
+    width: 40%;
+    height: 6px;
+    background:black;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform-origin: left center;
+  }
+
+.hour{
+    transform: rotate(30deg);
+}
+.minute{
+    transform: rotate(90deg);
+}
+.second{
+    transform: rotate(150deg);
+}
